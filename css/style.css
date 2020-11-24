@@ -9,7 +9,7 @@ body{
      height 100vh;
      font-family: 'Quicksand', sans-serif;
      color: white;
-     /*kill scroll overflow: hidden;*/
+     overflow: hidden;
 }
 div{
      height: 100vh;
