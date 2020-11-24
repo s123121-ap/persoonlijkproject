@@ -1,0 +1,44 @@
+:root{
+     font-size: 100%
+}
+html{
+     scroll-behavior: smooth;
+}
+body{
+     background-color: #f8f7f5;
+     height 100vh;
+     font-family: 'Quicksand', sans-serif;
+     color: white;
+     /*kill scroll overflow: hidden;*/
+}
+div{
+     height: 100vh;
+     background-color: #292c34;
+}
+p{
+     font-size: 1rem;
+}
+h1{
+     font-size: 3rem;
+     padding-top: 48vh;
+}
+div p{
+     padding: 10vh;
+}
+a{
+     color: red;
+     text-decoration: none;
+}
+#first{
+     text-align: center;
+}
+#first p{
+     padding: 10px;
+}
+#second{
+     background-color: #2d313c;
+}
+
+/*background-color: #2d313c;*/
+/*color: #a8adba;*/
+/*color: #0f1012;*/
