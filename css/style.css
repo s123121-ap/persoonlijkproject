@@ -1,6 +1,11 @@
 :root{
      font-size: 100%
 }
+@font-face {
+     font-family: 'SALERNO';
+     src: url('fonts/9SALERNO.TTF') format('ttf');
+}
+/* ------------------------------------------------------ */
 html{
      scroll-behavior: smooth;
 }
@@ -8,12 +13,13 @@ body{
      background-color: #f8f7f5;
      height 100vh;
      font-family: 'Quicksand', sans-serif;
-     color: white;
+     color: #fefefe;
      overflow: hidden;
 }
 div{
      height: 100vh;
-     background-color: #292c34;
+     /*background-color: #292c34;*/
+     background-color: #212121;
 }
 p{
      font-size: 1rem;
@@ -21,6 +27,7 @@ p{
 h1{
      font-size: 3rem;
      padding-top: 48vh;
+     font-family: SALERNO;
 }
 div p{
      padding: 10vh;
@@ -31,12 +38,13 @@ a{
 }
 #first{
      text-align: center;
+     margin: auto;
 }
 #first p{
      padding: 10px;
 }
 #second{
-     background-color: #2d313c;
+     background-color: #1e1e1e;
 }
 
 /*background-color: #2d313c;*/
